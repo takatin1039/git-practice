@@ -64,10 +64,13 @@ main{
 @media screen and (max-width:768px) {
 	main{
 		width: 100%;
+
+
+
 	}
 	.blog{
 		width: 100%;
-		margin: 0
+	
 	}
 	.main-contents{
 		width: 90%;
@@ -75,16 +78,18 @@ main{
 		padding-left: 2%;
 		padding-right: 2%;
 		float:none;
+		margin: 20px auto;
 
 
 
 	}
-	.maincontents:first-child{
-		margin: 50px 0 0 0 ;
+		.main-contents:first-child{
+		margin: 50px auto 0 auto ;
 	}
-		.maincontents:last-child{
-		margin: 0 0 50px 0  ;
+		.main-contents:last-child{
+		margin: 20px auto 50px auto  ;
 	}
+
 
 	.main-contents-img1{
 		
